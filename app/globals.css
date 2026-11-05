@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "../styles/palette.css";
+@import "../styles/design-tokens.css";
+@import "../styles/styles.css";
+@import "../styles/reader-refinements.css";
+@import "../styles/home.css";
+@import "../styles/brief-shell.css";
+@import "../styles/loader.css";
+@import "../styles/application.css";
+@import "../styles/reading-controls.css";
+@import "../styles/grid-layout.css";
+@import "../styles/personalization.css";
+@import "../styles/design.css"; /* Hidden component reference */
+@theme inline {
+  --color-background: var(--aim-surface);
+  --color-foreground: var(--aim-text);
+  --color-muted: var(--aim-surface-muted);
+  --color-border: var(--aim-border);
+  --color-primary: var(--aim-accent);
+  --font-sans: var(--aim-font-sans);
+}

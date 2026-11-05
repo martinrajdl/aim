@@ -1,0 +1,59 @@
+:root {
+  /* Interface tokens. Spacing is based on an eight-pixel unit. */
+  --aim-space-1: 8px;
+  --aim-space-2: 16px;
+  --aim-space-3: 24px;
+  --aim-space-4: 32px;
+  --aim-space-5: 40px;
+  --aim-space-6: 48px;
+  --aim-space-8: 64px;
+  --aim-space-10: 80px;
+
+  --aim-radius-sm: 4px;
+  --aim-radius-md: 8px;
+  --aim-radius-lg: 16px;
+
+  --aim-control-height: 32px;
+  --aim-control-font-size: 13px;
+  --aim-control-line-height: 20px;
+
+  --aim-shadow-1: 0 1px 2px color-mix(in srgb, var(--aim-text) 8%, transparent);
+  --aim-shadow-2:
+    0 8px 24px color-mix(in srgb, var(--aim-text) 12%, transparent),
+    0 2px 4px color-mix(in srgb, var(--aim-text) 4%, transparent);
+  --aim-shadow-3:
+    0 24px 64px color-mix(in srgb, var(--aim-text) 18%, transparent),
+    0 8px 16px color-mix(in srgb, var(--aim-text) 6%, transparent);
+
+  --aim-duration-fast: 140ms;
+  --aim-duration-normal: 220ms;
+  --aim-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --aim-font-sans:
+    "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --aim-font-mono: "Geist Mono", ui-monospace, monospace;
+  --aim-type-display-size: 48px;
+  --aim-type-display-line: 56px;
+  --aim-type-headline-size: 32px;
+  --aim-type-headline-line: 40px;
+  --aim-type-section-size: 20px;
+  --aim-type-section-line: 28px;
+  --aim-type-body-size: 16px;
+  --aim-type-body-line: 24px;
+  --aim-type-small-size: 14px;
+  --aim-type-small-line: 24px;
+  --aim-type-label-size: 12px;
+  --aim-type-label-line: 16px;
+  --aim-weight-regular: 400;
+  --aim-weight-medium: 500;
+  --aim-weight-heading: 600;
+
+  --aim-border-width: 1px;
+  --aim-focus-width: 2px;
+  --aim-focus-offset: 4px;
+}
+@media (max-width: 600px), (pointer: coarse) {
+  :root {
+    --aim-control-height: 40px;
+  }
+}

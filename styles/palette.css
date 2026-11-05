@@ -1,0 +1,30 @@
+:root {
+  /* Aim email neutrals and live-site tokens, inspected 5 November 2026. */
+  --aim-canvas: #f6f5f4;
+  --aim-surface: #ffffff;
+  --aim-surface-muted: #f5f5f5;
+  --aim-text: #121212;
+  --aim-text-secondary: #343332;
+  --aim-text-muted: #686564;
+  --aim-border: #ebebeb;
+  /* Derived darker boundary for controls that need a visible outline. */
+  --aim-control-border: #8b8785;
+
+  /* Use deep blue for readable actions; bright blue only for decoration. */
+  --aim-accent: #0b66cb;
+  --aim-accent-hover: #0a52c2;
+  --aim-accent-bright: #0eaeef;
+  --aim-accent-soft: #e6f4fd;
+
+  /* Semantic inks are readable on white and their paired soft surfaces.
+     Bright indicators are decorative; state is also expressed in text. */
+  --aim-success: #087f5b;
+  --aim-success-indicator: #20c997;
+  --aim-success-soft: #eafaf3;
+  --aim-warning: #946200;
+  --aim-warning-indicator: #f5b82e;
+  --aim-warning-soft: #fff8e6;
+  --aim-danger: #d12f4c;
+  --aim-danger-indicator: #f45b72;
+  --aim-danger-soft: #fff0f2;
+}

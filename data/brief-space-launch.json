@@ -1,0 +1,442 @@
+{
+  "recap": {
+    "id": "rcp_o5E4x8LcwqZPJv",
+    "period_start": "2026-09-21",
+    "period_end": "2026-09-28",
+    "doc": {
+      "subject": "Starship V3 launch plan, PSLV drought hits 630 days",
+      "verdict": "Starship Flight 14 is back on a near-term clock. Starbase permitting still shapes SpaceX’s cadence. PSLV’s drought reminds buyers how thin the bench is.",
+      "currents": [
+        {
+          "since": "2026-09-02",
+          "cited_signal_ids": [
+            "sig_0PDJyxMONTw9i7"
+          ],
+          "status": "updated",
+          "label": "Starship shifts into paid orbital missions",
+          "since_label": "four weeks",
+          "line": "Starlink said Starship will launch 26 V3 satellites on Sept. 28."
+        },
+        {
+          "since": "2026-09-21",
+          "cited_signal_ids": [
+            "sig_1eUhHBwin3Q81G"
+          ],
+          "status": "new",
+          "label": "Judge approves SpaceX Texas land swap",
+          "since_label": "this week",
+          "line": "A federal judge allowed SpaceX’s Texas wildlife refuge land swap to proceed."
+        },
+        {
+          "since": "2026-09-17",
+          "cited_signal_ids": [
+            "sig_qUNa878xH4Gdrl"
+          ],
+          "status": "new",
+          "label": "SpaceX and NASA prepare Crew-13 mission",
+          "since_label": "two weeks",
+          "line": "SpaceX moved Crew-13’s Dragon spacecraft to Pad 40 for launch prep."
+        },
+        {
+          "since": "2026-09-19",
+          "cited_signal_ids": [
+            "sig_jfN8cBnDKQk4dy"
+          ],
+          "status": "new",
+          "label": "ISRO PSLV suffers back-to-back failures",
+          "since_label": "two weeks",
+          "line": "ISRO’s PSLV hit a 630-day gap without a successful launch."
+        }
+      ],
+      "items": [
+        {
+          "tier": "detail",
+          "read_update_ids": [
+            "upd_Lrq6TaUSxuUvGE",
+            "upd_L3Yj9AXQc5d556",
+            "upd_s6mPqOapioGP6j"
+          ],
+          "cited_signal_ids": [
+            "sig_0PDJyxMONTw9i7"
+          ],
+          "scope_id": "scp_SPTsXXz6UiyLWO",
+          "status": "updated",
+          "headline": "SpaceX plans a Sept. 28 Starship launch with 26 V3 satellites.",
+          "cited_update_ids": [
+            "upd_Lrq6TaUSxuUvGE",
+            "upd_s6mPqOapioGP6j",
+            "upd_lKi8nBDoE6yVZd",
+            "upd_YAu9N9NR4PNu5T",
+            "upd_L3Yj9AXQc5d556"
+          ],
+          "current": "Starship shifts into paid orbital missions",
+          "date": "2026-09-24",
+          "paragraphs": [
+            "For European buyers staring at a tightening global manifest, Starlink now ties near-term network expansion to Starship: it says Starship will launch 26 V3 Starlink satellites on Sept. 28. SpaceX has also moved Booster 21 to the pad and is flying reused heat-shield tiles on Ship 41 as it tries to turn Flight 14 into the first Starship orbital insertion.",
+            "SpaceX separately says it plans to end commercial Falcon 9 launches in the next few years. That puts extra weight on whether Starship can show repeatable orbit and reentry, not just a single attempt, because any credible Starship ramp changes how far ahead non‑SpaceX capacity gets booked."
+          ],
+          "figure": {
+            "fresh_update_ids": [
+              "upd_lKi8nBDoE6yVZd",
+              "upd_YAu9N9NR4PNu5T",
+              "upd_Lrq6TaUSxuUvGE"
+            ],
+            "scope": "current",
+            "block": {
+              "t": "timeline",
+              "lead": null,
+              "head": "Flight 14’s run-up is now anchored to Starlink V3 deployment",
+              "points": [
+                {
+                  "date": "2026-09-16",
+                  "text": "SpaceX said Ship 41 will reuse heat-shield tiles from Ship 40.",
+                  "update_id": "upd_s6mPqOapioGP6j"
+                },
+                {
+                  "date": "2026-09-21",
+                  "text": "SpaceX moved Booster 21 to the Starbase pad.",
+                  "update_id": "upd_lKi8nBDoE6yVZd"
+                },
+                {
+                  "date": "2026-09-22",
+                  "text": "SpaceX positioned Flight 14 as its first orbit attempt.",
+                  "update_id": "upd_YAu9N9NR4PNu5T"
+                },
+                {
+                  "date": "2026-09-24",
+                  "text": "Starlink said Starship will launch 26 V3 satellites on Sept. 28.",
+                  "update_id": "upd_Lrq6TaUSxuUvGE"
+                }
+              ]
+            }
+          },
+          "means": "European launch capacity can be sold as schedule insurance while Starship proves cadence, but that window closes quickly if Starship starts making orbit and reentry routine."
+        },
+        {
+          "tier": "brief",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_SPTsXXz6UiyLWO",
+          "status": "new",
+          "headline": "Blue Origin asked the FAA to limit Starship operations at LC-39A.",
+          "cited_update_ids": [
+            "upd_4oeMB1ZXSZ5r6S"
+          ],
+          "current": "Starship shifts into paid orbital missions",
+          "date": "2026-09-22",
+          "paragraphs": [
+            "Blue Origin formally objected to the FAA’s draft environmental work for Starship launches at LC-39A, proposing reduced rates, new infrastructure, and compensation for other firms’ losses. If this slows Florida approvals, Starship growth stays concentrated in Texas longer than SpaceX would like."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "brief",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_7KMKU2susybn1j",
+          "status": "new",
+          "headline": "Exolaunch booked a 2029 Starfall return mission on Starship.",
+          "cited_update_ids": [
+            "upd_pfc9MeA719ihip"
+          ],
+          "current": "Starship shifts into paid orbital missions",
+          "date": "2026-09-21",
+          "paragraphs": [
+            "Exolaunch contracted a Starfall mission targeted for 2029, its first move beyond rideshare into return-to-Earth services. Space Cargo Unlimited separately targeted a dedicated Starfall mission in 2028, but both bookings still depend on Starship reaching operational commercial flights."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "brief",
+          "read_update_ids": [],
+          "cited_signal_ids": [
+            "sig_1eUhHBwin3Q81G"
+          ],
+          "scope_id": "scp_SPTsXXz6UiyLWO",
+          "status": "new",
+          "headline": "Judge cleared SpaceX’s 715-acre Texas refuge land swap.",
+          "cited_update_ids": [
+            "upd_2lRqrB7sFCNY2s",
+            "upd_WJpHYvCBvSsOBl"
+          ],
+          "current": "Judge approves SpaceX Texas land swap",
+          "date": "2026-09-21",
+          "paragraphs": [
+            "A federal judge denied an injunction, allowing SpaceX to proceed with a swap that transfers about 715 acres of wildlife refuge land to SpaceX in exchange for about 683 acres it owns. In parallel, local reporting says SpaceX has annexed 7,000 acres at Starbase, which would directly ease layout and logistics constraints if it holds."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "brief",
+          "read_update_ids": [],
+          "cited_signal_ids": [
+            "sig_qUNa878xH4Gdrl"
+          ],
+          "scope_id": "scp_SPTsXXz6UiyLWO",
+          "status": "new",
+          "headline": "SpaceX moved Crew-13’s Dragon spacecraft to Pad 40.",
+          "cited_update_ids": [
+            "upd_y9N9KUKEGOPIsH"
+          ],
+          "current": "SpaceX and NASA prepare Crew-13 mission",
+          "date": "2026-09-25",
+          "paragraphs": [
+            "Dragon’s arrival at Pad 40 is the latest execution marker for the Crew-13 mission, after the crew entered preflight quarantine earlier in September. For launch buyers, this is another reminder that Falcon 9 and Dragon capacity is continuously reserved by institutional missions, even as commercial buyers chase fewer open slots."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "detail",
+          "read_update_ids": [
+            "upd_6yfDgyiZFg0ZwT"
+          ],
+          "cited_signal_ids": [
+            "sig_jfN8cBnDKQk4dy"
+          ],
+          "scope_id": "scp_yBviYeI1XuXjEo",
+          "status": "new",
+          "headline": "ISRO’s PSLV is 630 days without a success after two failures.",
+          "cited_update_ids": [
+            "upd_6yfDgyiZFg0ZwT"
+          ],
+          "current": "ISRO PSLV suffers back-to-back failures",
+          "date": "2026-09-21",
+          "paragraphs": [
+            "PSLV’s consecutive third-stage failures in May 2025 and January 2026 have stretched into a 630-day gap without a successful launch and pulled its historical success rate down to about 92%. This matters outside India because PSLV has been a trusted rideshare option for small satellites that cannot always wait for premium Western manifests.",
+            "The immediate market effect is risk reallocation: rideshare buyers will push harder for schedule protection, and alternatives that can offer a credible return-to-flight and cadence will get the first call. That dynamic still favors launchers with already-proven chains of production and range access, because the new demand is for reliability, not experimentation."
+          ],
+          "figure": {
+            "fresh_update_ids": [
+              "upd_6yfDgyiZFg0ZwT"
+            ],
+            "scope": "item",
+            "block": {
+              "head": "PSLV’s reliability shock shows up as time without a success",
+              "data": [
+                {
+                  "label": "Current drought",
+                  "value": 630.0,
+                  "key": "gap_current",
+                  "highlight": true,
+                  "note": null
+                },
+                {
+                  "label": "COVID-era gap",
+                  "value": 351.0,
+                  "key": "gap_covid",
+                  "highlight": false,
+                  "note": null
+                },
+                {
+                  "label": "Post-C39 gap",
+                  "value": 203.0,
+                  "key": "gap_post_c39",
+                  "highlight": false,
+                  "note": "2017"
+                }
+              ],
+              "title": "Gaps between successful PSLV launches (as stated)",
+              "chart_type": "bar",
+              "max_value": null,
+              "lead": null,
+              "t": "chart",
+              "foot": null,
+              "unit": "days"
+            }
+          },
+          "means": "Customers who used PSLV as a baseline rideshare option will now budget for a second booking, which makes any dependable European small-launch capacity more valuable in negotiations."
+        },
+        {
+          "tier": "one_liner",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_SPTsXXz6UiyLWO",
+          "status": "new",
+          "headline": "SpaceX gained exclusive access to US Space Command’s classified tracking catalog.",
+          "cited_update_ids": [
+            "upd_XVvy4zvfYUkVal"
+          ],
+          "current": null,
+          "date": "2026-09-21",
+          "paragraphs": [
+            "SpaceX gained exclusive access to US Space Command’s classified tracking catalog."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "one_liner",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_4mspnSV8TT8d6k",
+          "status": "new",
+          "headline": "ESA extended Rocket Factory Augsburg’s Boost! support by €2.7 million.",
+          "cited_update_ids": [
+            "upd_7MgQP3ZIzAmpXR"
+          ],
+          "current": null,
+          "date": "2026-09-23",
+          "paragraphs": [
+            "ESA extended Rocket Factory Augsburg’s Boost! support by €2.7 million."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "one_liner",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_4mspnSV8TT8d6k",
+          "status": "new",
+          "headline": "Isar Aerospace said CTO Josef Fleischmann is leaving to found Bavaria Instruments.",
+          "cited_update_ids": [
+            "upd_lYnpmXe9H7WsqL"
+          ],
+          "current": null,
+          "date": "2026-09-21",
+          "paragraphs": [
+            "Isar Aerospace said CTO Josef Fleischmann is leaving to found Bavaria Instruments."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "one_liner",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_LSugIU01TiOaHC",
+          "status": "new",
+          "headline": "ClearSpace signed an ESA contract for its Phoenix GEO life-extension mission.",
+          "cited_update_ids": [
+            "upd_HYLzwExUD5Ia9W"
+          ],
+          "current": null,
+          "date": "2026-09-23",
+          "paragraphs": [
+            "ClearSpace signed an ESA contract for its Phoenix GEO life-extension mission."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "one_liner",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_LSugIU01TiOaHC",
+          "status": "new",
+          "headline": "Hubble Network raised $200 million and said its early service is live.",
+          "cited_update_ids": [
+            "upd_aN9JSMNa5e5aVE"
+          ],
+          "current": null,
+          "date": "2026-09-23",
+          "paragraphs": [
+            "Hubble Network raised $200 million and said its early service is live."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "one_liner",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_LSugIU01TiOaHC",
+          "status": "new",
+          "headline": "Space Epoch raised $343 million for a Yuanxingzhe-1 rocket targeting 2026 flight.",
+          "cited_update_ids": [
+            "upd_hsPqvVVbj5dexM"
+          ],
+          "current": null,
+          "date": "2026-09-23",
+          "paragraphs": [
+            "Space Epoch raised $343 million for a Yuanxingzhe-1 rocket targeting 2026 flight."
+          ],
+          "figure": null,
+          "means": null
+        },
+        {
+          "tier": "one_liner",
+          "read_update_ids": [],
+          "cited_signal_ids": [],
+          "scope_id": "scp_aim2626verify092246",
+          "status": "new",
+          "headline": "Sirius Space Services reported a one-minute continuous firing of its STAR1 engine.",
+          "cited_update_ids": [
+            "upd_EzJjunsklkZoB8"
+          ],
+          "current": null,
+          "date": "2026-09-24",
+          "paragraphs": [
+            "Sirius Space Services reported a one-minute continuous firing of its STAR1 engine."
+          ],
+          "figure": null,
+          "means": null
+        }
+      ]
+    }
+  },
+  "citations": [
+    {
+      "id": "upd_6yfDgyiZFg0ZwT",
+      "title": "ISRO's PSLV rocket hits 630-day launch drought",
+      "subtitle": "with two third-stage failures in 2025-2026",
+      "date": "2026-09-21",
+      "sourceCount": 1,
+      "severityLevel": "green"
+    },
+    {
+      "id": "upd_L3Yj9AXQc5d556",
+      "title": "SpaceX plans to end commercial Falcon 9 launches",
+      "subtitle": "with satellite industry facing orbit access gap",
+      "date": "2026-09-21",
+      "sourceCount": 1,
+      "severityLevel": "green"
+    },
+    {
+      "id": "upd_Lrq6TaUSxuUvGE",
+      "title": "SpaceX launches V3 Starlink satellites to double maritime speeds",
+      "subtitle": "with 26 satellites raising downloads to 950Mbps",
+      "date": "2026-09-24",
+      "sourceCount": 4,
+      "severityLevel": "orange"
+    },
+    {
+      "id": "upd_s6mPqOapioGP6j",
+      "title": "SpaceX tests fully reusable Starship rocket in 2026",
+      "subtitle": "with Indian Ocean recovery and recycled heat shield tiles",
+      "date": "2026-09-16",
+      "sourceCount": 5,
+      "severityLevel": "red"
+    }
+  ],
+  "scopes": [
+    {
+      "id": "scp_SPTsXXz6UiyLWO",
+      "name": "SpaceX"
+    },
+    {
+      "id": "scp_7KMKU2susybn1j",
+      "name": "Space Trade Press"
+    },
+    {
+      "id": "scp_yBviYeI1XuXjEo",
+      "name": "Launch failures"
+    },
+    {
+      "id": "scp_4mspnSV8TT8d6k",
+      "name": "NewSpace"
+    },
+    {
+      "id": "scp_LSugIU01TiOaHC",
+      "name": "SpaceNews"
+    },
+    {
+      "id": "scp_aim2626verify092246",
+      "name": "Sirius Space Services"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "recap": {
+    "id": "rcp_DzcstrmDUDmjg2",
+    "period_start": "2026-09-21",
+    "period_end": "2026-09-28",
+    "doc": {
+      "subject": "Mironet swaps Claude for Jev; Macaly ships BYO-agent infra",
+      "verdict": "Mironet’s Jev swap shows where LLM agents lose. Macaly is turning Claude and ChatGPT into a deployment surface. Security buyers now ask about agent permissions, not demos.",
+      "currents": [
+        {
+          "since": "2026-09-10",
+          "cited_signal_ids": [
+            "sig_jQpECGtT8H2QPy"
+          ],
+          "status": "updated",
+          "label": "Cost-per-case replaces token talk",
+          "since_label": "three weeks",
+          "line": "Mironet replaced Claude-based agents with TypeSafe AI’s Jev for product categorization."
+        },
+        {
+          "since": "2026-09-07",
+          "cited_signal_ids": [
+            "sig_T97QUSpKCmKDgO",
+            "sig_iY39gAZgChHKZX"
+          ],
+          "status": "updated",
+          "label": "Bring-your-own-agent infrastructure",
+          "since_label": "three weeks",
+          "line": "Macaly Cloud removed manual setup and pushed deployment into Claude and ChatGPT via MCP."
+        },
+        {
+          "since": "2026-09-03",
+          "cited_signal_ids": [
+            "sig_S1L3QHnh62Bsnw",
+            "sig_duocBylb0b275O",
+            "sig_S6vEYNmY3Jx2mU"
+          ],
+          "status": "updated",
+          "label": "Sovereign security sells",
+          "since_label": "four weeks",
+          "line": "Cequence warned that most enterprise AI agents are massively over-privileged by default."
+        },
+        {
+          "since": "2026-09-11",
+          "cited_signal_ids": [
+            "sig_GXrCwN1Ol4uAYI"
+          ],
+          "status": "updated",
+          "label": "Slowdown talk reaches Czech boardrooms",
+          "since_label": "three weeks",
+          "line": "Petra Stupková warned that AI is accelerating unexpectedly fast and needs responsibility."
+        }
+      ],
+      "items": [
+        {
+          "cited_signal_ids": [
+            "sig_jQpECGtT8H2QPy"
+          ],
+          "read_update_ids": [
+            "upd_LBCstIMQxIKY4k",
+            "upd_HkdCxJqAGjed6d",
+            "upd_BGuG9PB74z1Dkg"
+          ],
+          "status": "updated",
+          "scope_id": "viJispl3slFn9DvU0hHz",
+          "tier": "detail",
+          "headline": "Mironet replaced Claude agents with Jev, cutting categorization costs 343×.",
+          "cited_update_ids": [
+            "upd_LBCstIMQxIKY4k",
+            "upd_BGuG9PB74z1Dkg",
+            "upd_HkdCxJqAGjed6d"
+          ],
+          "current": "Cost-per-case replaces token talk",
+          "paragraphs": [
+            "In the “cost per workflow” shift, Mironet moved product categorization off LLM agents and onto Jev, a typed decision model that returns structured verdicts instead of prose.",
+            "The interesting part is the architecture move: treat the generative model as the messy-edge worker, then put fast, calibrated gates in front of every expensive step. Jev’s early adoption on Vercel suggests this pattern will spread beyond e‑commerce."
+          ],
+          "date": "2026-09-25",
+          "figure": {
+            "fresh_update_ids": [
+              "upd_BGuG9PB74z1Dkg",
+              "upd_LBCstIMQxIKY4k"
+            ],
+            "scope": "item",
+            "block": {
+              "shape": "themus",
+              "t": "comparison",
+              "head": "Mironet’s split: LLM agents for text, Jev for decisions",
+              "lead": "A concrete before/after showing how “typed decisions” replace LLM agents in a structured workflow.",
+              "them": {
+                "points": [
+                  {
+                    "text": "Claude-based categorization ran since spring 2026."
+                  },
+                  {
+                    "text": "Baseline batch time: 32.4 seconds."
+                  }
+                ],
+                "name": "Claude-based agents (before)"
+              },
+              "us": {
+                "points": [
+                  {
+                    "text": "Batch time: 1.7 seconds (19× faster)."
+                  },
+                  {
+                    "text": "Operational costs: 343× lower."
+                  },
+                  {
+                    "text": "Quality: 30–40% higher accuracy; hallucinations eliminated."
+                  }
+                ],
+                "name": "Jev decision model (now)"
+              }
+            }
+          },
+          "means": "Typed decision models can become the default “control plane” around an LLM, shrinking both verification labor and model spend in any structured workflow."
+        },
+        {
+          "cited_signal_ids": [
+            "sig_T97QUSpKCmKDgO"
+          ],
+          "read_update_ids": [
+            "upd_DF0oS5iDQia6zO",
+            "upd_qoMFQ1IrzyT70e",
+            "upd_3E92JUHjK3jcsc"
+          ],
+          "status": "updated",
+          "scope_id": "VVjIJkMO06rVOnrCjusO",
+          "tier": "detail",
+          "headline": "Macaly Cloud made Claude/ChatGPT deployments one-click, free until 1 October.",
+          "cited_update_ids": [
+            "upd_DF0oS5iDQia6zO",
+            "upd_3E92JUHjK3jcsc",
+            "upd_qoMFQ1IrzyT70e",
+            "upd_dYftbCRonj7YAp",
+            "upd_UeqguDWuhQAgWY"
+          ],
+          "current": "Bring-your-own-agent infrastructure",
+          "paragraphs": [
+            "In the “bring your own agent” fight, Macaly Cloud is trying to win by owning setup and deployment while letting users stay inside Claude or ChatGPT. Its latest update removes manual database, hosting, auth, and emailing setup and exposes the stack through an MCP connector.",
+            "Macaly is also setting an explicit price anchor for the infra layer, with $10/month after the trial. Together with its earlier “publish from chat” launch and team.blue distribution, the bet is that project state and deployment become the moat, not the chat UI."
+          ],
+          "date": "2026-09-25",
+          "figure": {
+            "fresh_update_ids": [
+              "upd_qoMFQ1IrzyT70e",
+              "upd_DF0oS5iDQia6zO"
+            ],
+            "scope": "current",
+            "block": {
+              "t": "timeline",
+              "points": [
+                {
+                  "date": "2026-09-16",
+                  "text": "Macaly Cloud is introduced as a way to publish apps/sites from Claude or ChatGPT.",
+                  "update_id": "upd_dYftbCRonj7YAp"
+                },
+                {
+                  "date": "2026-09-18",
+                  "text": "Macaly sharpens the “shared infrastructure” framing and “avoid paying twice.”",
+                  "update_id": "upd_UeqguDWuhQAgWY"
+                },
+                {
+                  "date": "2026-09-21",
+                  "text": "Coverage adds scale context and a concrete “prompt-to-live app” demo claim.",
+                  "update_id": "upd_qoMFQ1IrzyT70e"
+                },
+                {
+                  "date": "2026-09-25",
+                  "text": "A new update removes manual setup steps and offers a free trial until 1 October.",
+                  "update_id": "upd_DF0oS5iDQia6zO"
+                }
+              ],
+              "head": "How Macaly moved from “publish from chat” to “own setup”",
+              "lead": "A short sequence of public statements that set up the “open infrastructure” positioning."
+            }
+          },
+          "means": "If your customers build in Claude/ChatGPT, you either become a callable capability inside that workspace or you become the deployment layer that makes “done” real."
+        },
+        {
+          "cited_signal_ids": [
+            "sig_S1L3QHnh62Bsnw"
+          ],
+          "read_update_ids": [],
+          "status": "updated",
+          "scope_id": "VVjIJkMO06rVOnrCjusO",
+          "tier": "brief",
+          "headline": "Cequence said billing agents get 105 tools when they need four.",
+          "cited_update_ids": [
+            "upd_UT4LmDI7C9mQBF",
+            "upd_3XAI9Jhu7nhkyO"
+          ],
+          "current": "Sovereign security sells",
+          "paragraphs": [
+            "Cequence framed agent governance as continuous control, not occasional checks, and claimed billing assistants are commonly given 105 tools when only four are needed. In a separate warning, it said enterprise AI accounts have grown 100X and many lack an owner or expiration."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_GXrCwN1Ol4uAYI"
+          ],
+          "read_update_ids": [],
+          "status": "updated",
+          "scope_id": "0bbaqJrXvuEPshtIUdJL",
+          "tier": "brief",
+          "headline": "Petra Stupková warned Czech leaders to treat AI pace as risk.",
+          "cited_update_ids": [
+            "upd_8hLaBf7iKTMPTm"
+          ],
+          "current": "Slowdown talk reaches Czech boardrooms",
+          "paragraphs": [
+            "Petra Stupková argued that AI development has accelerated unexpectedly fast and pointed to recent incidents as warning signs. She framed “responsibility” as a condition for sustainable adoption, not an anti-innovation stance."
+          ],
+          "date": "2026-09-23",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [],
+          "read_update_ids": [],
+          "status": "updated",
+          "scope_id": "0bbaqJrXvuEPshtIUdJL",
+          "tier": "one_liner",
+          "headline": "Laati said its Gemini agent breached three companies in a security test.",
+          "cited_update_ids": [
+            "upd_SJECtfZXFxwVvq"
+          ],
+          "current": "Sovereign security sells",
+          "paragraphs": [
+            "Laati said its Gemini agent breached three companies in a security test."
+          ],
+          "date": "2026-09-21",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [],
+          "read_update_ids": [],
+          "status": "updated",
+          "scope_id": "0bbaqJrXvuEPshtIUdJL",
+          "tier": "one_liner",
+          "headline": "Adam Juřica argued for “safe acceleration” instead of slowing AI.",
+          "cited_update_ids": [
+            "upd_EWHUu9FAcTjDtW"
+          ],
+          "current": "Slowdown talk reaches Czech boardrooms",
+          "paragraphs": [
+            "Adam Juřica argued for “safe acceleration” instead of slowing AI."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "0bbaqJrXvuEPshtIUdJL",
+          "tier": "one_liner",
+          "headline": "CVC agreed to buy a minority stake in Prague’s CDN77 at $1.9B.",
+          "cited_update_ids": [
+            "upd_KzjhgCGImI1hvG"
+          ],
+          "current": null,
+          "paragraphs": [
+            "CVC agreed to buy a minority stake in Prague’s CDN77 at $1.9B."
+          ],
+          "date": "2026-09-24",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "VVjIJkMO06rVOnrCjusO",
+          "tier": "one_liner",
+          "headline": "EIF invested €27M in IP Lab Ventures Fund I.",
+          "cited_update_ids": [
+            "upd_aHmOL8q4fPBADy"
+          ],
+          "current": null,
+          "paragraphs": [
+            "EIF invested €27M in IP Lab Ventures Fund I."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "viJispl3slFn9DvU0hHz",
+          "tier": "one_liner",
+          "headline": "VisionFlow raised €1.4M as a convertible loan maturing in December 2028.",
+          "cited_update_ids": [
+            "upd_WhDxICdX136ckj"
+          ],
+          "current": null,
+          "paragraphs": [
+            "VisionFlow raised €1.4M as a convertible loan maturing in December 2028."
+          ],
+          "date": "2026-09-22",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "VVjIJkMO06rVOnrCjusO",
+          "tier": "one_liner",
+          "headline": "Ranketta won Startup of the Year 2026 and claimed 100+ customers.",
+          "cited_update_ids": [
+            "upd_wFYD5IyTLcP9Yp"
+          ],
+          "current": null,
+          "paragraphs": [
+            "Ranketta won Startup of the Year 2026 and claimed 100+ customers."
+          ],
+          "date": "2026-09-24",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "viJispl3slFn9DvU0hHz",
+          "tier": "one_liner",
+          "headline": "BottleCap AI released ThinkingCap-Qwen3.8–27B claiming 37% fewer thinking tokens.",
+          "cited_update_ids": [
+            "upd_Ncy2mFUqkpooDQ"
+          ],
+          "current": null,
+          "paragraphs": [
+            "BottleCap AI released ThinkingCap-Qwen3.8–27B claiming 37% fewer thinking tokens."
+          ],
+          "date": "2026-09-24",
+          "figure": null,
+          "means": null
+        }
+      ]
+    }
+  },
+  "citations": [
+    {
+      "id": "upd_3E92JUHjK3jcsc",
+      "title": "Macaly Cloud removes costly vibe coding agent",
+      "subtitle": "with free use until October 1, then $10/month",
+      "date": "2026-09-16",
+      "sourceCount": 1,
+      "severityLevel": "green"
+    },
+    {
+      "id": "upd_BGuG9PB74z1Dkg",
+      "title": "Mironet deploys TypeSafe AI's Jev model in 2026",
+      "subtitle": "with costs cut 343x and accuracy up 30-40%",
+      "date": "2026-09-24",
+      "sourceCount": 2,
+      "severityLevel": "orange"
+    },
+    {
+      "id": "upd_DF0oS5iDQia6zO",
+      "title": "Macaly Cloud launches major update simplifying AI setup",
+      "subtitle": "with free trial available until October 1",
+      "date": "2026-09-25",
+      "sourceCount": 1,
+      "severityLevel": "green"
+    },
+    {
+      "id": "upd_HkdCxJqAGjed6d",
+      "title": "TypeSafe AI's Jev model hits 13% Vercel AI Gateway adoption",
+      "subtitle": "with 24-hour uptake doubling GPT-5.6's rate",
+      "date": "2026-09-21",
+      "sourceCount": 1,
+      "severityLevel": "green"
+    },
+    {
+      "id": "upd_LBCstIMQxIKY4k",
+      "title": "Mironet deploys TypeSafe AI's JEV model",
+      "subtitle": "with 19× faster product categorization and 343× cost cuts",
+      "date": "2026-09-25",
+      "sourceCount": 1,
+      "severityLevel": "green"
+    },
+    {
+      "id": "upd_qoMFQ1IrzyT70e",
+      "title": "Czech startup Macaly surpasses 100,000 apps",
+      "subtitle": "after €100M+ acquisition, integrates ChatGPT and Claude",
+      "date": "2026-09-21",
+      "sourceCount": 3,
+      "severityLevel": "orange"
+    }
+  ],
+  "scopes": [
+    {
+      "id": "viJispl3slFn9DvU0hHz",
+      "name": "What can other founders steal as a playbook?"
+    },
+    {
+      "id": "VVjIJkMO06rVOnrCjusO",
+      "name": "How are CZ & SK AI startups pitching themselves?"
+    },
+    {
+      "id": "0bbaqJrXvuEPshtIUdJL",
+      "name": "What are CZ & SK AI founders thinking?"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+/* Decorative Aim orb. Put the loading message on its surrounding status. */
+.aim-loader {
+  --aim-loader-size: 32px;
+  --aim-loader-duration: 9s;
+  position: relative;
+  display: inline-block;
+  width: var(--aim-loader-size);
+  height: var(--aim-loader-size);
+  flex: 0 0 var(--aim-loader-size);
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: radial-gradient(
+    ellipse at 33% 22%,
+    #ffffff 0%,
+    #ffffff 31%,
+    #f2f5f8 60%,
+    #e2ebf3 82%,
+    #cfdeed 100%
+  );
+  box-shadow:
+    inset calc(var(--aim-loader-size) * -0.025)
+      calc(var(--aim-loader-size) * -0.045) calc(var(--aim-loader-size) * 0.1)
+      #55769126,
+    inset calc(var(--aim-loader-size) * 0.015)
+      calc(var(--aim-loader-size) * 0.015) calc(var(--aim-loader-size) * 0.035)
+      #ffffffcc,
+    0 0 0 0.5px #8fb4d51a;
+}
+
+.aim-loader::before,
+.aim-loader::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.aim-loader::before {
+  /* A soft crescent, with a luminous inner edge, painted inside the sphere. */
+  background: center / 100% 100% no-repeat
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cdefs%3E%3ClinearGradient id='blue' x1='22' y1='60' x2='70' y2='61' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%230a52c2'/%3E%3Cstop offset='.48' stop-color='%230b66cb'/%3E%3Cstop offset='.78' stop-color='%230eaeef'/%3E%3Cstop offset='1' stop-color='%239ce8ff'/%3E%3C/linearGradient%3E%3Cfilter id='soft' x='-40%25' y='-40%25' width='180%25' height='180%25'%3E%3CfeGaussianBlur stdDeviation='3.4'/%3E%3C/filter%3E%3Cfilter id='glow' x='-50%25' y='-50%25' width='200%25' height='200%25'%3E%3CfeGaussianBlur stdDeviation='2.8'/%3E%3C/filter%3E%3C/defs%3E%3Cpath d='M81-8C37 7 16 40 24 77C30 107 52 130 83 136C55 113 47 91 49 65C49 37 61 10 81-8Z' fill='url(%23blue)' filter='url(%23soft)'/%3E%3Cpath d='M81-8C61 10 49 37 49 65C47 91 55 113 83 136' fill='none' stroke='%237fe3ff' stroke-opacity='.8' stroke-width='4' filter='url(%23glow)'/%3E%3C/svg%3E");
+  transform: rotate(-12deg);
+  animation: aim-loader-flow var(--aim-loader-duration) linear infinite;
+}
+
+.aim-loader::after {
+  /* Stationary light and rim keep the silhouette spherical as the blue flows. */
+  background:
+    radial-gradient(ellipse 70% 42% at 41% 8%, #ffffffba 0%, #ffffff00 72%),
+    radial-gradient(
+      circle at 39% 34%,
+      #ffffff00 41%,
+      #edf6ff0a 63%,
+      #558ec322 88%,
+      #ffffff80 100%
+    ),
+    linear-gradient(
+      116deg,
+      #ffffff29 0%,
+      #ffffff00 43%,
+      #ffffff00 64%,
+      #78b1df1a 100%
+    );
+  box-shadow: inset 0 0 calc(var(--aim-loader-size) * 0.045) #ffffff9c;
+}
+
+@keyframes aim-loader-flow {
+  from {
+    transform: rotate(-12deg);
+  }
+  to {
+    transform: rotate(348deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aim-loader::before {
+    animation: none;
+  }
+}

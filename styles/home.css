@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  font-family: var(--aim-font-sans);
+  color: var(--aim-text);
+  background: var(--aim-surface);
+  -webkit-font-smoothing: antialiased;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button:focus-visible,
+a:focus-visible,
+[tabindex]:focus-visible {
+  outline: var(--aim-focus-width) solid var(--aim-accent);
+  outline-offset: var(--aim-focus-offset);
+}
+button:disabled {
+  cursor: default;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.home-shell {
+  height: 100dvh;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Compact evidence previews shared by editorial story cards. */
+.home-chart,
+.home-table,
+.home-comparison {
+  margin: var(--aim-space-3) 0 0;
+  padding: var(--aim-space-2);
+  border-radius: var(--aim-radius-md);
+  background: var(--aim-surface-muted);
+}
+.home-chart figcaption,
+.home-table figcaption,
+.home-comparison figcaption {
+  margin: 0 0 var(--aim-space-2);
+  color: var(--aim-text-secondary);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.home-chart .chart-row,
+.home-chart .bar-row {
+  margin: 0 0 var(--aim-space-2);
+}
+.home-chart .chart-row:last-child,
+.home-chart .bar-row:last-child {
+  margin-bottom: 0;
+}
+.home-chart .chart-label,
+.home-chart .bar-row-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--aim-space-1);
+  margin-bottom: var(--aim-space-1);
+  color: var(--aim-text-secondary);
+  font-size: 12px;
+  line-height: 16px;
+}
+.home-chart strong {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.home-chart .bar-track,
+.home-chart .chart-track {
+  height: 24px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: #e4e8ec;
+}
+.home-chart .bar-fill,
+.home-chart .chart-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: var(--aim-control-border);
+}
+.home-chart .bar-fill.highlight,
+.home-chart .chart-fill.highlight {
+  background: var(--aim-accent);
+}
+.home-chart small {
+  color: var(--aim-text-muted);
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.chart-scale {
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--aim-space-1);
+  border-top: 1px solid var(--aim-border);
+  font-size: 10px;
+  line-height: 16px;
+  color: var(--aim-text-muted);
+}
+.home-chart .bar-axis {
+  margin: var(--aim-space-1) 0 0;
+  color: var(--aim-text-muted);
+  font-size: 11px;
+  line-height: 16px;
+}
+.home-chart .bar-axis {
+  display: flex;
+  justify-content: space-between;
+}
+.home-table {
+  overflow-x: auto;
+}
+.home-table-scroll {
+  overflow-x: auto;
+}
+.home-table > small {
+  display: block;
+  margin-top: var(--aim-space-1);
+  color: var(--aim-text-muted);
+  font-size: 10px;
+  line-height: 16px;
+}
+.home-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 12px;
+  line-height: 20px;
+}
+.home-table th {
+  color: var(--aim-text-muted);
+  font-size: 11px;
+  font-weight: 500;
+}
+.home-table td,
+.home-table th {
+  padding: var(--aim-space-1);
+  border-bottom: 1px solid var(--aim-border);
+  vertical-align: top;
+}
+.home-table tr:last-child td {
+  border-bottom: 0;
+}
+.home-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--aim-space-2);
+}
+.home-comparison > figcaption {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+.home-comparison > div:last-child {
+  border-left: 1px solid var(--aim-border);
+  padding-left: var(--aim-space-2);
+}
+.home-comparison h3,
+.home-comparison h4 {
+  margin: 0 0 var(--aim-space-1);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.home-comparison ul {
+  margin: 0;
+  padding-left: var(--aim-space-2);
+}
+.home-comparison li,
+.home-comparison p {
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--aim-text-secondary);
+}

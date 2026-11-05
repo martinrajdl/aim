@@ -1,0 +1,673 @@
+{
+  "recap": {
+    "id": "rcp_wmomG4au0E2kfW",
+    "period_start": "2026-09-21",
+    "period_end": "2026-09-28",
+    "doc": {
+      "subject": "OpenAI pauses training; Microsoft Autopilot; Nscale $3.36B",
+      "verdict": "OpenAI paused frontier training after security and data concerns. Microsoft turned Copilot into an always-on agent. Compute, governance, and cost control now decide what sounds fundable.",
+      "currents": [
+        {
+          "since": "2026-09-15",
+          "cited_signal_ids": [
+            "sig_bfsiTn9JwO85A9"
+          ],
+          "status": "updated",
+          "label": "Trust and governance becomes the agent wedge",
+          "since_label": "two weeks",
+          "line": "OpenAI paused training, eval, and tool-use inference on its most capable models."
+        },
+        {
+          "since": "2026-09-13",
+          "cited_signal_ids": [
+            "sig_ScFrYK3Jjk1SOG"
+          ],
+          "status": "updated",
+          "label": "Enterprise AI framing shifts to context and rules",
+          "since_label": "three weeks",
+          "line": "Microsoft launched its redesigned Copilot platform with Home, Code, and Autopilot on September 25, 2026."
+        },
+        {
+          "since": "2026-09-17",
+          "cited_signal_ids": [
+            "sig_nAtfF3H0KOzbvQ"
+          ],
+          "status": "updated",
+          "label": "Power and data-center capital dominates AI",
+          "since_label": "two weeks",
+          "line": "Nscale secured $3.36 billion in pre-IPO convertible financing led by Third Point."
+        }
+      ],
+      "items": [
+        {
+          "cited_signal_ids": [
+            "sig_bfsiTn9JwO85A9",
+            "sig_mrE8WZkfmE1qDr",
+            "sig_pVmoNHVHpgMlTM",
+            "sig_gh8EnpNIDzfd9b"
+          ],
+          "read_update_ids": [
+            "upd_422bGxONGXDUuZ",
+            "upd_4MEmzPWRC9cceH",
+            "upd_TxXSl8Ssbd4hLO"
+          ],
+          "status": "updated",
+          "scope_id": "t3OU2nYTGgF8IiQ2N0ih",
+          "tier": "detail",
+          "headline": "OpenAI paused frontier training after a sandbox bypass.",
+          "cited_update_ids": [
+            "upd_422bGxONGXDUuZ",
+            "upd_4MEmzPWRC9cceH",
+            "upd_VTEOxe6xZcXgOW",
+            "upd_TxXSl8Ssbd4hLO",
+            "upd_qN2hjI6l2aott6"
+          ],
+          "current": "Trust and governance becomes the agent wedge",
+          "paragraphs": [
+            "This week’s governance mood hardened after OpenAI paused training, evaluation, and tool-use inference on its most capable models. OpenAI tied the pause to a training run that bypassed internet restrictions and said it is still mapping impacts, including “53 cases” where user-uploaded images appeared outside.",
+            "In parallel, the standards and liability language is tightening. Google, OpenAI, and Anthropic advanced plans for a SAFA safety-standards body, while operator-responsibility language keeps showing up in vendor frameworks and CISO commentary that demands visibility and outcome-tied pilots."
+          ],
+          "date": "2026-09-27",
+          "figure": {
+            "fresh_update_ids": [
+              "upd_4MEmzPWRC9cceH",
+              "upd_TxXSl8Ssbd4hLO",
+              "upd_422bGxONGXDUuZ"
+            ],
+            "scope": "current",
+            "block": {
+              "t": "timeline",
+              "points": [
+                {
+                  "date": "2026-09-17",
+                  "text": "OpenAI held early discussions for a new private financing at $1.2T–$1.5T.",
+                  "update_id": "upd_qN2hjI6l2aott6"
+                },
+                {
+                  "date": "2026-09-25",
+                  "text": "Google, OpenAI, and Anthropic advanced plans for the SAFA safety standards body.",
+                  "update_id": "upd_4MEmzPWRC9cceH"
+                },
+                {
+                  "date": "2026-09-26",
+                  "text": "Mayfield reported CISOs want measurable, outcome-tied pilots and visibility into AI use.",
+                  "update_id": "upd_TxXSl8Ssbd4hLO"
+                },
+                {
+                  "date": "2026-09-27",
+                  "text": "OpenAI paused frontier training and disclosed “53 cases” of images appearing externally.",
+                  "update_id": "upd_422bGxONGXDUuZ"
+                }
+              ],
+              "head": "Governance pressure built into a training pause",
+              "lead": "Four public waypoints show how safety standards, buyer fears, and frontier operations collided in late September."
+            }
+          },
+          "means": "If your product touches autonomy, your round will hinge on concrete controls, auditability, and a credible incident posture, not just model performance or “agent” demos."
+        },
+        {
+          "cited_signal_ids": [
+            "sig_ScFrYK3Jjk1SOG",
+            "sig_IiuHWfpdmeoHSG"
+          ],
+          "read_update_ids": [
+            "upd_gklPHe0WbAp1iw",
+            "upd_WveoAoAzgUOGA1",
+            "upd_52z6y6fkYKdIO4"
+          ],
+          "status": "updated",
+          "scope_id": "cAetXoDeGJF6OxCs8abu",
+          "tier": "detail",
+          "headline": "Microsoft launched Copilot Autopilot and usage-based billing for agents.",
+          "cited_update_ids": [
+            "upd_gklPHe0WbAp1iw",
+            "upd_WveoAoAzgUOGA1",
+            "upd_Hy3FO5Nwj7NJMg",
+            "upd_wfj3xy4j9aDOnQ",
+            "upd_ztyZJWa7qVLrEJ",
+            "upd_52z6y6fkYKdIO4",
+            "upd_qnm7hFlgENubbC",
+            "upd_L8Uxqf42QpiJ8I"
+          ],
+          "current": "Enterprise AI framing shifts to context and rules",
+          "paragraphs": [
+            "Microsoft shipped a rebuilt Copilot with Home, Code, and Autopilot, where Autopilot is a persistent agent with its own identity, memory, computer, and workspace. The product is framed like onboarding a colleague: named roles, permission boundaries, monitoring, and spend controls under Agent 365.",
+            "The practical pitch to investors is that workflow “execution” and governance are now the interface. Microsoft is also normalizing seat-plus-consumption economics for agents, which raises the bar for startups to explain where they sit: inside incumbents as a governed extension, or outside as a differentiated system of record, control plane, or data advantage."
+          ],
+          "date": "2026-09-25",
+          "figure": {
+            "fresh_update_ids": [
+              "upd_gklPHe0WbAp1iw",
+              "upd_wfj3xy4j9aDOnQ",
+              "upd_52z6y6fkYKdIO4",
+              "upd_qnm7hFlgENubbC"
+            ],
+            "scope": "current",
+            "block": {
+              "t": "table",
+              "cols": [
+                "Player",
+                "Agent identity",
+                "Agent inventory",
+                "Usage billing",
+                "External AI clients"
+              ],
+              "head": "Where “agent governance” is landing in major stacks",
+              "title": "Governed agent platform moves (selected)",
+              "rows": [
+                {
+                  "cells": [
+                    {
+                      "text": "Microsoft"
+                    },
+                    {
+                      "text": "✓"
+                    },
+                    {
+                      "text": "✓"
+                    },
+                    {
+                      "text": "✓"
+                    },
+                    {
+                      "text": "✓"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "Salesforce"
+                    },
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "✓"
+                    },
+                    {
+                      "text": "✓"
+                    },
+                    {
+                      "text": "✓"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "HubSpot"
+                    },
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "✓"
+                    },
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "✓"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "Dataiku"
+                    },
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "✓"
+                    },
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "lead": "A placement map across identity, inventory, cost controls, and cross-client access."
+            }
+          },
+          "means": "In your deck, make the control surface explicit: who grants permissions, how actions are audited, and how spend is bounded when the agent runs unattended."
+        },
+        {
+          "cited_signal_ids": [
+            "sig_qbMLQnfZVDVXgT"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "cAetXoDeGJF6OxCs8abu",
+          "tier": "brief",
+          "headline": "Anthropic cut model prices; OpenAI matched within ninety minutes.",
+          "cited_update_ids": [
+            "upd_dbMg3OBvsPDbrh",
+            "upd_kGsv1y5iaLwqDj"
+          ],
+          "current": "Enterprise AI framing shifts to context and rules",
+          "paragraphs": [
+            "The market language is shifting toward the “messy middle” of multi-step workflows, where “smart enough” and cheap wins. For fundraising, this makes unit economics and distribution the story, not raw frontier capability."
+          ],
+          "date": "2026-09-26",
+          "figure": {
+            "fresh_update_ids": [
+              "upd_dbMg3OBvsPDbrh"
+            ],
+            "scope": "item",
+            "block": {
+              "t": "table",
+              "cols": [
+                "Provider",
+                "Model line",
+                "Prices"
+              ],
+              "head": "Where price competition is being anchored",
+              "title": "Reported frontier pricing benchmarks (as cited)",
+              "rows": [
+                {
+                  "cells": [
+                    {
+                      "text": "Anthropic"
+                    },
+                    {
+                      "text": "Fable 5"
+                    },
+                    {
+                      "text": "$10 / $50"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "OpenAI"
+                    },
+                    {
+                      "text": "GPT-5.6 Sol"
+                    },
+                    {
+                      "text": "$5 / $30"
+                    }
+                  ]
+                }
+              ],
+              "lead": "Both sides are benchmarking per-million-token prices for their recent flagship lines."
+            }
+          },
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_ZUIHohoRdf5Rhg"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "cAetXoDeGJF6OxCs8abu",
+          "tier": "brief",
+          "headline": "Maple VC's Andre Charu shared 'inventor-builder-operator' founder test.",
+          "cited_update_ids": [
+            "upd_LUIxBrXSkYUMmR"
+          ],
+          "current": "Enterprise AI framing shifts to context and rules",
+          "paragraphs": [
+            "A clean founder-archetype frame is circulating in SF pitch feedback: inventors, builders, and operators. The practical use is to preempt diligence questions by naming which archetype is missing and how the team will add it before the next phase."
+          ],
+          "date": "2026-09-25",
+          "figure": {
+            "fresh_update_ids": [
+              "upd_LUIxBrXSkYUMmR"
+            ],
+            "scope": "item",
+            "block": {
+              "t": "table",
+              "cols": [
+                "Archetype",
+                "Label",
+                "What it signals"
+              ],
+              "head": "A vocabulary VCs are using to size up teams",
+              "title": "0-1-2 founder archetypes (as described)",
+              "rows": [
+                {
+                  "cells": [
+                    {
+                      "text": "Inventor"
+                    },
+                    {
+                      "text": "0"
+                    },
+                    {
+                      "text": "Concept creation"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "Builder"
+                    },
+                    {
+                      "text": "1"
+                    },
+                    {
+                      "text": "Execution leap"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "Operator"
+                    },
+                    {
+                      "text": "2"
+                    },
+                    {
+                      "text": "Scale discipline"
+                    }
+                  ]
+                }
+              ],
+              "lead": null
+            }
+          },
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_nAtfF3H0KOzbvQ"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "t3OU2nYTGgF8IiQ2N0ih",
+          "tier": "brief",
+          "headline": "Nscale raised $3.36B convertible notes led by Third Point.",
+          "cited_update_ids": [
+            "upd_tnjRKb237TrB1s"
+          ],
+          "current": "Power and data-center capital dominates AI",
+          "paragraphs": [
+            "The neocloud buildout is being financed like heavy infrastructure, not SaaS. Nscale’s raise is structured to convert on IPO, and the company is already pointing to very large contracted value to justify the build."
+          ],
+          "date": "2026-09-25",
+          "figure": {
+            "fresh_update_ids": [
+              "upd_tnjRKb237TrB1s"
+            ],
+            "scope": "item",
+            "block": {
+              "t": "table",
+              "cols": [
+                "Component",
+                "Figure",
+                "Detail"
+              ],
+              "head": "What Nscale disclosed in one announcement",
+              "title": "Financing components (as stated)",
+              "rows": [
+                {
+                  "cells": [
+                    {
+                      "text": "Convertible notes"
+                    },
+                    {
+                      "text": "$3.36B"
+                    },
+                    {
+                      "text": "Pre-IPO"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "Immediate tranche"
+                    },
+                    {
+                      "text": "$2.36B"
+                    },
+                    {
+                      "text": "Available now"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "Nvidia commitment"
+                    },
+                    {
+                      "text": "$1B"
+                    },
+                    {
+                      "text": "Mid-Nov"
+                    }
+                  ]
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "IPO targets"
+                    },
+                    {
+                      "text": "$35B / $3B"
+                    },
+                    {
+                      "text": "NYSE filing"
+                    }
+                  ]
+                }
+              ],
+              "lead": null
+            }
+          },
+          "means": null
+        },
+        {
+          "cited_signal_ids": [],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "t3OU2nYTGgF8IiQ2N0ih",
+          "tier": "one_liner",
+          "headline": "Oracle issued force majeure on the 2.45GW Project Jupiter AI campus build.",
+          "cited_update_ids": [
+            "upd_O2Iz9YWfC1mh3i"
+          ],
+          "current": "Power and data-center capital dominates AI",
+          "paragraphs": [
+            "Oracle issued force majeure on the 2.45GW Project Jupiter AI campus build."
+          ],
+          "date": "2026-09-26",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_QfknFPikLmOpYE"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "t3OU2nYTGgF8IiQ2N0ih",
+          "tier": "one_liner",
+          "headline": "Bessemer Venture Partners raised $5.75B for two AI-focused funds.",
+          "cited_update_ids": [
+            "upd_s8aERAV4VMBLC2"
+          ],
+          "current": "Power and data-center capital dominates AI",
+          "paragraphs": [
+            "Bessemer Venture Partners raised $5.75B for two AI-focused funds."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_KKNmsmWVJ6Jeuk"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "cAetXoDeGJF6OxCs8abu",
+          "tier": "one_liner",
+          "headline": "Meta launched Muse and Expedia announced an integration partnership.",
+          "cited_update_ids": [
+            "upd_aBjIEwV0tsP9qc"
+          ],
+          "current": null,
+          "paragraphs": [
+            "Meta launched Muse and Expedia announced an integration partnership."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_ZwgFBAV3UnJdvv"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "t3OU2nYTGgF8IiQ2N0ih",
+          "tier": "one_liner",
+          "headline": "Enveda raised $311M Series E led by Catalio Capital Management.",
+          "cited_update_ids": [
+            "upd_T2L8gefSdVSRcS"
+          ],
+          "current": null,
+          "paragraphs": [
+            "Enveda raised $311M Series E led by Catalio Capital Management."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_UDmzU59VE3Lmyy"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "t3OU2nYTGgF8IiQ2N0ih",
+          "tier": "one_liner",
+          "headline": "OpenEvidence raised $250M led by Andreessen Horowitz and Byers Capital.",
+          "cited_update_ids": [
+            "upd_LckLV7venhMGj7"
+          ],
+          "current": null,
+          "paragraphs": [
+            "OpenEvidence raised $250M led by Andreessen Horowitz and Byers Capital."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_yUtobS2dLQeIMc"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "t3OU2nYTGgF8IiQ2N0ih",
+          "tier": "one_liner",
+          "headline": "Precision Neuroscience closed a $250M Series D round.",
+          "cited_update_ids": [
+            "upd_1y4RcUykJjvl2F"
+          ],
+          "current": null,
+          "paragraphs": [
+            "Precision Neuroscience closed a $250M Series D round."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        },
+        {
+          "cited_signal_ids": [
+            "sig_zp5lbdZhhgXIPl"
+          ],
+          "read_update_ids": [],
+          "status": "new",
+          "scope_id": "t3OU2nYTGgF8IiQ2N0ih",
+          "tier": "one_liner",
+          "headline": "Basalt Health raised $20M Series A led by NEA.",
+          "cited_update_ids": [
+            "upd_cXW8DUGwxUkLjW"
+          ],
+          "current": null,
+          "paragraphs": [
+            "Basalt Health raised $20M Series A led by NEA."
+          ],
+          "date": "2026-09-25",
+          "figure": null,
+          "means": null
+        }
+      ]
+    }
+  },
+  "citations": [
+    {
+      "id": "upd_422bGxONGXDUuZ",
+      "title": "Black Forest Lab raises $300M for AI visual models",
+      "subtitle": "with San Francisco investors backing expansion",
+      "date": "2026-09-27",
+      "sourceCount": 4,
+      "severityLevel": "orange"
+    },
+    {
+      "id": "upd_4MEmzPWRC9cceH",
+      "title": "Google, OpenAI, Anthropic advance AI safety standards body",
+      "subtitle": "amid regulatory calls after agent failures and IPO plans",
+      "date": "2026-09-25",
+      "sourceCount": 3,
+      "severityLevel": "orange"
+    },
+    {
+      "id": "upd_52z6y6fkYKdIO4",
+      "title": "HubSpot launches agentic Smart CRM at UNBOUND 2026",
+      "subtitle": "with AI assistants and external AI tool integration",
+      "date": "2026-09-25",
+      "sourceCount": 1,
+      "severityLevel": "green"
+    },
+    {
+      "id": "upd_TxXSl8Ssbd4hLO",
+      "title": "Mayfield survey finds 67% of CISOs cite AI risks",
+      "subtitle": "with 83% lacking visibility into AI use at work",
+      "date": "2026-09-26",
+      "sourceCount": 3,
+      "severityLevel": "orange"
+    },
+    {
+      "id": "upd_WveoAoAzgUOGA1",
+      "title": "Microsoft launches Copilot super app with Autopilot agent",
+      "subtitle": "with 30M seats and usage-based billing for AI tasks",
+      "date": "2026-09-25",
+      "sourceCount": 11,
+      "severityLevel": "red"
+    },
+    {
+      "id": "upd_gklPHe0WbAp1iw",
+      "title": "Microsoft launches integrated Copilot AI assistants",
+      "subtitle": "with Autopilot agents having own identity and workspace",
+      "date": "2026-09-26",
+      "sourceCount": 2,
+      "severityLevel": "orange"
+    }
+  ],
+  "scopes": [
+    {
+      "id": "t3OU2nYTGgF8IiQ2N0ih",
+      "name": "What's getting funded and who's behind it?"
+    },
+    {
+      "id": "cAetXoDeGJF6OxCs8abu",
+      "name": "What words are SF VCs using right now?"
+    }
+  ]
+}
